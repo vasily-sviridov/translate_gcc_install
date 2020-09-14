@@ -9,10 +9,10 @@ GCC - это очень хорошая коллекция компиляторо
 <b>Если у вас 32-разрядная операционная система, изменить каждый путь (из статьи) `C:\dev\msys64` на `C:\dev\msys32`</b>
 1. Скачайте [msys2-x86_64-latest.exe](http://repo.msys2.org/distrib/msys2-x86_64-latest.exe) и запустите.
 2. В MSYS2 консоли выполните команду ниже:
-   `pacman -Syuu`
+   <pre><code>pacman -Syuu</code></pre>
 3. Закройте MSYS2 консоль, как только у вас об этом попросят
 4. Откройте заново MSYS2 и заново запустите:
-   `pacman -Syuu`
+   <pre><code>pacman -Syuu</code></pre>
 5. Теперь время установить GCC, выполните эту команду в консоли:
    <pre><code>pacman -S --needed base-devel mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain \
                     git subversion mercurial \
