@@ -102,3 +102,5 @@ $ pacman -Sy mingw-w64-i686-boost mingw-w64-x86_64-boost
 	INCLUDE_PATH=/mingw64/include LIBRARY_PATH=/mingw64/lib
 	cd ..
 </pre></code>
+
+Оригинальная статья: https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2
